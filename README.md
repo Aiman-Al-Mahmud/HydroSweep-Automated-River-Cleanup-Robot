@@ -133,27 +133,6 @@ Contributions, suggestions, and hardware optimizations are highly encouraged! Fe
 
 🌿 Let’s use technology to protect our rivers and build a sustainable future!
 
----
-
-## 👥 Contributors
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/Aiman-Al-Mahmud">
-          <img src="https://github.com/Aiman-Al-Mahmud.png?size=100" width="100px;" alt="Aiman Al Mahmud"/>
-          <br />
-          <sub><b>Aiman Al Mahmud</b></sub>
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/SYAAGalib">
-          <img src="https://github.com/SYAAGalib.png?size=100" width="100px;" alt="SYAAGalib"/>
-          <br />
-          <sub><b>SYAAGalib</b></sub>
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
+## Contributors
+- Aiman Al Mahmud
+- SYAAGalib
