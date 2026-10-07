@@ -131,25 +131,27 @@ Open the Serial Monitor (9600 Baud) to track the automated system state and dist
 ## 🤝 Contributing
 Contributions, suggestions, and hardware optimizations are highly encouraged! Feel free to open an Issue or PR to suggest a feature or troubleshoot scale efficiency.
 
-## Contributors
+## 👥 Contributors
 
 <div align="left">
   <a href="https://github.com/Aiman-Al-Mahmud">
-    <img src="https://avatars.githubusercontent.com/u/180551806?v=4" width="40" height="40" alt="Aiman Al Mahmud" />
+    <img src="https://github.com/Aiman-Al-Mahmud.png" width="40" height="40" alt="Aiman Al Mahmud" style="border-radius: 50%;" />
   </a>
   <a href="https://github.com/SYAAGalib">
-    <img src="https://avatars.githubusercontent.com/u/118968113?v=4" width="40" height="40" alt="SYAAGalib" />
+    <img src="https://github.com/SYAAGalib.png" width="40" height="40" alt="SYAAGalib" style="border-radius: 50%;" />
   </a>
   <a href="https://github.com/Pushpita007">
-    <img src="https://avatars.githubusercontent.com/u/113064067?v=4" width="40" height="40" alt="Pushpita007" />
+    <img src="https://github.com/Pushpita007.png" width="40" height="40" alt="Pushpita007" style="border-radius: 50%;" />
   </a>
   <a href="https://github.com/Borsha959">
-    <img src="https://avatars.githubusercontent.com/u/147336423?v=4" width="40" height="40" alt="Borsha959" />
+    <img src="https://github.com/Borsha959.png" width="40" height="40" alt="Borsha959" style="border-radius: 50%;" />
   </a>
   <a href="https://github.com/aishwariyaroy">
-    <img src="https://avatars.githubusercontent.com/u/144096137?v=4" width="40" height="40" alt="aishwariyaroy" />
+    <img src="https://github.com/aishwariyaroy.png" width="40" height="40" alt="aishwariyaroy" style="border-radius: 50%;" />
   </a>
 </div>
+
+<br>
 
 
 🌿 Let’s use technology to protect our rivers and build a sustainable future!
