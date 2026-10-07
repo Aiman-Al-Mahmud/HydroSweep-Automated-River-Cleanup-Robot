@@ -6,7 +6,7 @@ manage safety timeouts, and flicker status LEDs simultaneously without
 
 
 // Pin Connections
-const int trigPin = 9;             // Ultrasonic sensor Trigger
+const int trigPin = 9;             // Ultrasonic sensor Trigger action
 const int echoPin = 10;            // Ultrasonic sensor Echo
 const int motorPin = 8;            // Relay module IN pin
 const int ledStatus = 5;           // LED 1: Solid ON when system is running (empty)
