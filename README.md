@@ -4,7 +4,7 @@
 [![Arduino Supported](https://img.shields.io/badge/Arduino-Compatible-00979D?logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![Eco Friendly](https://img.shields.io/badge/Environment-Eco--Friendly-4CAF50?logo=eco&logoColor=white)](#-the-eco-friendly-aspect)
 
-HydroSweep is a 2 to 3-foot functional scale-model of a solar-powered, waste-collecting catamaran designed to combat plastic pollution in rivers before it reaches the ocean. Inspired by the groundbreaking work of "The Ocean Cleanup Interceptor", this project uses automation, renewable energy, and smart sensing to autonomously collect floating river debris and safeguard our aquatic ecosystems.
+HydroSweep is a 2 to 3-foot functional scale-model of a solar-powered, waste-collecting catamaran designed to combat plastic pollution in rivers before it reaches the ocean. Inspired by the groundbreaking work of ocean cleanup initiatives, this project aims to catch floating waste before it disperses into the ocean.
 
 ---
 
@@ -20,20 +20,20 @@ HydroSweep is a 2 to 3-foot functional scale-model of a solar-powered, waste-col
 ## 💡 What is HydroSweep?
 **HydroSweep** is a smart, solar-assisted catamaran (double-hulled) vessel that uses an angled conveyor belt to scoop floating waste out of the water and deposit it into an onboard collection bucket. 
 
-Controlled by an **Arduino Mega**, the robot automatically manages its operations. When the collection bucket is empty, the conveyor belt runs. When the on-board ultrasonic sensor detects that the bucket is full, the robot safely halts the conveyor and alerts the operator via a flashing indicator.
+Controlled by an **Arduino Mega**, the robot automatically manages its operations. When the collection bucket is empty, the conveyor belt runs. When the on-board ultrasonic sensor detects that the bucket is nearly full, the system pauses and waits for manual emptying, preventing overflow and protecting the mechanism.
 
 ---
 
 ## 🌊 How Can It Help To Clean Our Rivers?
 
-Historically, marine waste was collected only after it reached the open ocean, where dispersion makes it nearly impossible to retrieve. **HydroSweep targets waste at the source—our rivers.** Moving river water naturally channels floating trash toward the front of the catamaran, where the conveyor belt continuously lifts the debris into a container. 
+Historically, marine waste was collected only after it reached the open ocean, where dispersion makes it nearly impossible to retrieve. **HydroSweep targets waste at the source—our rivers.** Moving with the natural current, it intercepts trash before it reaches deeper waterways and the sea.
 
-By operating autonomously and utilizing renewable solar energy to track environmental states, a fleet of automated systems like HydroSweep can intercept metric tons of debris daily without human intervention, preventing plastic from fragmenting and entering the ocean's food chain.
+By operating autonomously and utilizing renewable solar energy to track environmental states, a fleet of automated systems like HydroSweep can intercept metric tons of debris daily without human intervention.
 
 ### 🎥 See It in Action (The Inspiration)
 This project is scaled from real-world technology tackling major global waterways. Watch how the full-scale system operates on the front lines of environmental cleanup:
 
-[![The Ocean Cleanup Interceptor Inspiration](https://img.shields.io/badge/YouTube-The%20Ocean%20Cleanup%20Interceptor-red?style=for-the-badge&logo=youtube)](https://youtu.be/bm1rH70wfJo?si=bHwk6Ivvz5TmEAOU)
+[![The Ocean Cleanup Interceptor Inspiration](https://img.shields.io/badge/YouTube-The%20Ocean%20Cleanup%20Interceptor-red?style=for-the-badge&logo=youtube)](https://youtu.be/bm1rH70wfJo?si=bHwk6Ivvz5s2m0Q7)
 
 ---
 
@@ -88,7 +88,7 @@ The following diagram illustrates how the Arduino Uno/Mega processes visual and 
 
 ## ⚙️ How It Works
 
-1. **Environmental Harvesting**: Moving river water naturally Funnels debris toward the front hulls. 
+1. **Environmental Harvesting**: Moving river water naturally funnels debris toward the front hulls.
 2. **Waste Ascent**: An inclined conveyor belt, driven by the 3V-6V gear motor, continuously drags floating garbage out of the water.
 3. **Smart Level Monitoring**: The HC-SR04 Ultrasonic Sensor, positioned 16 cm above the bottom of a 6 cm deep collection bucket, repeatedly fires ping requests downward.
 4. **Safety Automation (Full Detection)**:
@@ -106,9 +106,11 @@ Ensure you have the Arduino IDE installed.
 
 Clone this repository:
 
-Bash
-git clone [https://github.com/yourusername/HydroSweep-Automated-River-Cleanup-Robot.git](https://github.com/yourusername/HydroSweep-Automated-River-Cleanup-Robot.git)
-Open HydroSweep.ino inside Arduino IDE.
+```bash
+git clone https://github.com/Aiman-Al-Mahmud/HydroSweep-Automated-River-Cleanup-Robot.git
+```
+
+Open `HydroSweep.ino` inside Arduino IDE.
 
 Go to Tools > Board and select Arduino Mega or Mega 2560.
 
@@ -118,18 +120,40 @@ Click the Upload button to run it.
 
 Open the Serial Monitor (9600 Baud) to track the automated system state and distance logs!
 
-
 ## 🌿 The Eco-Friendly Aspect
 
-- **Solar Harvesting Simulation**: Fully integrates onboard solar sensing to simulate self-sustaining operations, demonstrating how the robot can harvest environmental energy during daylight hours to maintain continuous tracking and warning systems.
+- **Solar Harvesting Simulation**: Fully integrates onboard solar sensing to simulate self-sustaining operations, demonstrating how the robot can harvest environmental energy during daylight hours.
 - **Low-Impact Passive Funneling**: Uses the natural flow of rivers to capture debris rather than using heavy, energy-draining marine propulsion systems.
-- **Micro-Power Safety Configuration**: By utilizing a 3.7V Li-ion battery entirely isolated from the Arduino's logic system through a highly efficient relay module, HydroSweep maintains massive operational torque while wasting zero idle energy.
+- **Micro-Power Safety Configuration**: By utilizing a 3.7V Li-ion battery entirely isolated from the Arduino's logic system through a highly efficient relay module, HydroSweep maintains massive operational efficiency with minimal energy use.
 
 ---
-
 
 ## 🤝 Contributing
 Contributions, suggestions, and hardware optimizations are highly encouraged! Feel free to open an Issue or PR to suggest a feature or troubleshoot scale efficiency.
 
-
 🌿 Let’s use technology to protect our rivers and build a sustainable future!
+
+---
+
+## 👥 Contributors
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/Aiman-Al-Mahmud">
+          <img src="https://github.com/Aiman-Al-Mahmud.png?size=100" width="100px;" alt="Aiman Al Mahmud"/>
+          <br />
+          <sub><b>Aiman Al Mahmud</b></sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/SYAAGalib">
+          <img src="https://github.com/SYAAGalib.png?size=100" width="100px;" alt="SYAAGalib"/>
+          <br />
+          <sub><b>SYAAGalib</b></sub>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
