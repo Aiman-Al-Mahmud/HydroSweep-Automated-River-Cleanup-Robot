@@ -131,5 +131,17 @@ Open the Serial Monitor (9600 Baud) to track the automated system state and dist
 ## 🤝 Contributing
 Contributions, suggestions, and hardware optimizations are highly encouraged! Feel free to open an Issue or PR to suggest a feature or troubleshoot scale efficiency.
 
+## Contributors
+
+<div align="left">
+  <a href="https://github.com/Aiman-Al-Mahmud">
+    <img src="https://avatars.githubusercontent.com/u/180551806?v=4" width="40" height="40" alt="Aiman Al Mahmud" />
+  </a>
+  <a href="https://github.com/SYAAGalib">
+    <img src="https://avatars.githubusercontent.com/u/118968113?v=4" width="40" height="40" alt="SYAAGalib" />
+  </a>
+</div>
+
+
 
 🌿 Let’s use technology to protect our rivers and build a sustainable future!
