@@ -4,11 +4,7 @@
 [![Arduino Supported](https://img.shields.io/badge/Arduino-Compatible-00979D?logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![Eco Friendly](https://img.shields.io/badge/Environment-Eco--Friendly-4CAF50?logo=eco&logoColor=white)](#-the-eco-friendly-aspect)
 
-<<<<<<< HEAD
-HydroSweep is a 2 to 3-foot functional scale-model of a solar-powered, waste-collecting catamaran designed to combat plastic pollution in rivers before it reaches the ocean. Inspired by the groundb[...]
-=======
 HydroSweep is a 2 to 3-foot functional scale-model of a solar-powered, waste-collecting catamaran designed to combat plastic pollution in rivers before it reaches the ocean. Inspired by the groundbreaking work of ocean cleanup initiatives, this project aims to catch floating waste before it disperses into the ocean.
->>>>>>> 9e6e0fd75cf1c38c26fda0cbf5608b4abfe698ff
 
 ---
 
@@ -22,36 +18,22 @@ HydroSweep is a 2 to 3-foot functional scale-model of a solar-powered, waste-col
 ---
 
 ## 💡 What is HydroSweep?
-**HydroSweep** is a smart, solar-assisted catamaran (double-hulled) vessel that uses an angled conveyor belt to scoop floating waste out of the water and deposit it into an onboard collection buck[...]
+**HydroSweep** is a smart, solar-assisted catamaran (double-hulled) vessel that uses an angled conveyor belt to scoop floating waste out of the water and deposit it into an onboard collection bucket.
 
-<<<<<<< HEAD
-Controlled by an **Arduino Mega**, the robot automatically manages its operations. When the collection bucket is empty, the conveyor belt runs. When the on-board ultrasonic sensor detects that the[...]
-=======
 Controlled by an **Arduino Mega**, the robot automatically manages its operations. When the collection bucket is empty, the conveyor belt runs. When the on-board ultrasonic sensor detects that the bucket is nearly full, the system pauses and waits for manual emptying, preventing overflow and protecting the mechanism.
->>>>>>> 9e6e0fd75cf1c38c26fda0cbf5608b4abfe698ff
 
 ---
 
 ## 🌊 How Can It Help To Clean Our Rivers?
 
-<<<<<<< HEAD
-Historically, marine waste was collected only after it reached the open ocean, where dispersion makes it nearly impossible to retrieve. **HydroSweep targets waste at the source—our rivers.** Mov[...]
-
-By operating autonomously and utilizing renewable solar energy to track environmental states, a fleet of automated systems like HydroSweep can intercept metric tons of debris daily without human i[...]
-=======
 Historically, marine waste was collected only after it reached the open ocean, where dispersion makes it nearly impossible to retrieve. **HydroSweep targets waste at the source—our rivers.** Moving with the natural current, it intercepts trash before it reaches deeper waterways and the sea.
 
 By operating autonomously and utilizing renewable solar energy to track environmental states, a fleet of automated systems like HydroSweep can intercept metric tons of debris daily without human intervention.
->>>>>>> 9e6e0fd75cf1c38c26fda0cbf5608b4abfe698ff
 
 ### 🎥 See It in Action (The Inspiration)
 This project is scaled from real-world technology tackling major global waterways. Watch how the full-scale system operates on the front lines of environmental cleanup:
 
-<<<<<<< HEAD
-[![The Ocean Cleanup Interceptor Inspiration](https://img.shields.io/badge/YouTube-The%20Ocean%20Cleanup%20Interceptor-red?style=for-the-badge&logo=youtube)](https://youtu.be/bm1rH70wfJo?si=bHwk6IV0R0[...]
-=======
 [![The Ocean Cleanup Interceptor Inspiration](https://img.shields.io/badge/YouTube-The%20Ocean%20Cleanup%20Interceptor-red?style=for-the-badge&logo=youtube)](https://youtu.be/bm1rH70wfJo?si=bHwk6Ivvz5s2m0Q7)
->>>>>>> 9e6e0fd75cf1c38c26fda0cbf5608b4abfe698ff
 
 ---
 
@@ -115,7 +97,7 @@ The following diagram illustrates how the Arduino Uno/Mega processes visual and 
    - The solid green **Status LED (Pin 5)** goes `LOW` (OFF), and the red **Warning LED (Pin 6)** begins to flicker rapidly at 250ms intervals.
    - The system pauses and re-inspects the bucket every 3 seconds while refusing to restart until the obstruction/trash is cleared.
 5. **Normal Operation**: When the sensor registers a distance > 10 cm, the Arduino commands the motor to run and maintains a steady green **Status LED**, allowing hands-free collection to continue.
-6. **Solar Energy Indication**: A small solar panel read by A0 checks for ambient light. If sunlight is detected (value > 300), the **Solar LED (Pin 7)** remains illuminated independently of the colle[...]
+6. **Solar Energy Indication**: A small solar panel read by A0 checks for ambient light. If sunlight is detected (value > 300), the **Solar LED (Pin 7)** remains illuminated independently of the collection state.
 
 ---
 
@@ -142,9 +124,9 @@ Open the Serial Monitor (9600 Baud) to track the automated system state and dist
 
 - **Solar Harvesting Simulation**: Fully integrates onboard solar sensing to simulate self-sustaining operations, demonstrating how the robot can harvest environmental energy during daylight hours.
 - **Low-Impact Passive Funneling**: Uses the natural flow of rivers to capture debris rather than using heavy, energy-draining marine propulsion systems.
-<<<<<<< HEAD
+
 - **Micro-Power Safety Configuration**: By utilizing a 3.7V Li-ion battery entirely isolated from the Arduino's logic system through a highly efficient relay module, HydroSweep maintains massive opera[...]
-=======
+
 - **Micro-Power Safety Configuration**: By utilizing a 3.7V Li-ion battery entirely isolated from the Arduino's logic system through a highly efficient relay module, HydroSweep maintains massive operational efficiency with minimal energy use.
 >>>>>>> 9e6e0fd75cf1c38c26fda0cbf5608b4abfe698ff
 
@@ -153,7 +135,6 @@ Open the Serial Monitor (9600 Baud) to track the automated system state and dist
 ## 🤝 Contributing
 Contributions, suggestions, and hardware optimizations are highly encouraged! Feel free to open an Issue or PR to suggest a feature or troubleshoot scale efficiency.
 
-<<<<<<< HEAD
 ## 👥 Contributors
 
 <div align="left">
@@ -176,10 +157,7 @@ Contributions, suggestions, and hardware optimizations are highly encouraged! Fe
 
 <br>
 
-=======
-🌿 Let’s use technology to protect our rivers and build a sustainable future!
->>>>>>> 9e6e0fd75cf1c38c26fda0cbf5608b4abfe698ff
 
-## Contributors
-- Aiman Al Mahmud
-- SYAAGalib
+🌿 Let’s use technology to protect our rivers and build a sustainable future!
+
+
