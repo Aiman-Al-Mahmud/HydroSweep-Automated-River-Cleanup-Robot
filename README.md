@@ -139,6 +139,15 @@ Contributions, suggestions, and hardware optimizations are highly encouraged! Fe
   </a>
   <a href="https://github.com/SYAAGalib">
     <img src="https://avatars.githubusercontent.com/u/118968113?v=4" width="40" height="40" alt="SYAAGalib" />
+      </a>
+  <a href="https://github.com/Pushpita007">
+    <img src="https://avatars.githubusercontent.com/u/113064067?v=4" width="40" height="40" alt="Pushpita007" />
+  </a>
+  <a href="https://github.com/Borsha959">
+    <img src="https://avatars.githubusercontent.com/u/147336423?v=4" width="40" height="40" alt="Borsha959" />
+  </a>
+  <a href="https://github.com/aishwariyaroy">
+    <img src="https://avatars.githubusercontent.com/u/144096137?v=4" width="40" height="40" alt="aishwariyaroy" />
   </a>
 </div>
 
