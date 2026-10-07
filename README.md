@@ -142,7 +142,5 @@ Contributions, suggestions, and hardware optimizations are highly encouraged! Fe
   </a>
 </div>
 
-- Aiman Al Mahmud
-- SYAAGalib
 
 🌿 Let’s use technology to protect our rivers and build a sustainable future!
