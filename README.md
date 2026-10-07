@@ -1,6 +1,6 @@
 # 🌊 HydroSweep: Automated Eco-Friendly River-Cleaning Robot
 
-[![GitHub license](https://img.shields.io/github/license/JohnDoe/HydroSweep-Automated-River-Cleanup-Robot?color=blue)](LICENSE)
+[![GitHub license](https://img.shields.io/github/license/Aiman-Al-Mahmud/HydroSweep-Automated-River-Cleanup-Robot?color=blue)](LICENSE)
 [![Arduino Supported](https://img.shields.io/badge/Arduino-Compatible-00979D?logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![Eco Friendly](https://img.shields.io/badge/Environment-Eco--Friendly-4CAF50?logo=eco&logoColor=white)](#-the-eco-friendly-aspect)
 
