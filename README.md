@@ -11,7 +11,7 @@ HydroSweep is a 2 to 3-foot functional scale-model of a solar-powered, waste-col
 ## 🖼️ Prototype Showcase
 
 <div align="center">
-  <img src="Project picture/hydrosweep-prototype-hardware.png" alt="HydroSweep Functional Scale Model Prototype" width="800">
+  <img src="Project%20picture/hydrosweep-prototype-hardware.png" alt="HydroSweep Functional Scale Model Prototype" width="800">
   <p><i>The functional "HydroSweep" catamaran prototype sitting on the workbench.</i></p>
 </div>
 
@@ -42,9 +42,9 @@ This project is scaled from real-world technology tackling major global waterway
 Below is the design overview and scaled cutaway inspired by "The Ocean Cleanup Interceptor" project infrastructure:
 
 <div align="center">
-  <img src="Project picture/concept-interceptor.png" alt="The Ocean Cleanup Interceptor Concept Scale-Model" width="45%">
+  <img src="Project%20picture/concept-interceptor.png" alt="The Ocean Cleanup Interceptor Concept Scale-Model" width="45%">
   &nbsp;&nbsp;
-  <img src="Project picture/infrastructure-design.png" alt="Interceptor Project Infrastructure Raw Design" width="45%">
+  <img src="Project%20picture/infrastructure-design.png" alt="Interceptor Project Infrastructure Raw Design" width="45%">
   <p><i>Left: 3D concept overview. Right: Architectural infrastructure & system layout.</i></p>
 </div>
 
@@ -71,7 +71,7 @@ Below is the design overview and scaled cutaway inspired by "The Ocean Cleanup I
 ### ⚡ Complete Wiring Schematics
 
 <div align="center">
-  <img src="Project picture/circuit-diagram.png" alt="Revised and Clarified Circuit Diagram of Automated Conveyor System" width="800">
+  <img src="Project%20picture/circuit-diagram.png" alt="Revised and Clarified Circuit Diagram of Automated Conveyor System" width="800">
   <p><i>High-precision wiring scheme linking the Arduino Mega, Relay Module, DC Motor, Ultrasonic Sensor, and Status LEDs.</i></p>
 </div>
 
@@ -80,7 +80,7 @@ Below is the design overview and scaled cutaway inspired by "The Ocean Cleanup I
 The following diagram illustrates how the Arduino Uno/Mega processes visual and telemetry inputs to direct automated actions to the display and actuator modules:
 
 <div align="center">
-  <img src="Project picture/output-flow-diagram.png" alt="HydroSweep Output Data and Control Flow Diagram" width="800">
+  <img src="Project%20picture/output-flow-diagram.png" alt="HydroSweep Output Data and Control Flow Diagram" width="800">
   <p><i>Visual flowchart tracking logic states and control routing from microcontroller to output interfaces.</i></p>
 </div>
 
